@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -Sy steam gamemode gamescope network-manager-applet fwupd fwupd-docs sbctl efitools pacman-contrib unrar unzip ufw gwenview firefox openh264 terminus-font evolution evince file-roller
+pacman -Sy steam gamemode gamescope fwupd fwupd-docs sbctl efitools pacman-contrib unrar unzip ufw gwenview firefox openh264 terminus-font evolution evince file-roller
 
 systemctl enable bluetooth.service
 
